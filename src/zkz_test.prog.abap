@@ -10,9 +10,7 @@ SELECT DISTINCT ernam, matkl FROM mara
   WHERE ernam IN ('ALAN', 'AI4879').
 IF sy-subrc = 0.
   LOOP AT gt_mara INTO DATA(lwa_mara).
-    IF sy-subrc = 0.
 
-    ENDIF.
   ENDLOOP.
 
 ENDIF.
